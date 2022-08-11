@@ -1,0 +1,15 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost/webflux
+    username: root
+    password: secret
+
+logging:
+  level:
+    root: info
+    sql: trace
+    web: debug
+    com.turbo: debug
+    r2dbc: debug
+  group:
+    r2dbc: org.springframework.r2dbc,org.springframework.data.r2dbc
