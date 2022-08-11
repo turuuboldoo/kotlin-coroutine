@@ -6,11 +6,13 @@ Kotlin Coroutines are Kotlin lightweight threads allowing to write non-blocking 
 side, suspending functions provides an abstraction for asynchronous operations while on library side kotlinx.coroutines
 provides functions like async { } and types like Flow.
 
-Read more about koltin coroutine in Spring
+Read more about Kotlin coroutine in Spring
 \
-[Coroutines guide﻿](https://kotlinlang.org/docs/coroutines-guide.html)
+[Coroutines guide](https://kotlinlang.org/docs/coroutines-guide.html)
 \
-[core-kotlin-concurrency](https://github.com/turuuboldoo/core-kotlin-modules/tree/main/core-kotlin-concurrency)
+[Kotlinx coroutines core](https://github.com/Kotlin/kotlinx.coroutines/tree/master/kotlinx-coroutines-core)
+\
+[Core kotlin concurrency](https://github.com/turuuboldoo/core-kotlin-modules/tree/main/core-kotlin-concurrency)
 \
 [Reactive or Coroutines](https://medium.com/digitalfrontiers/reactive-or-coroutines-between-a-rock-and-a-hard-place-6a41a151195a)
 \
