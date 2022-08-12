@@ -10,6 +10,8 @@ Read more about Kotlin coroutine in Spring
 \
 [Coroutines guide](https://kotlinlang.org/docs/coroutines-guide.html)
 \
+[What is the difference between launch/join and async/await in Kotlin coroutines](https://stackoverflow.com/questions/46226518/what-is-the-difference-between-launch-join-and-async-await-in-kotlin-coroutines)
+\
 [Kotlinx coroutines core](https://github.com/Kotlin/kotlinx.coroutines/tree/master/kotlinx-coroutines-core)
 \
 [Core kotlin concurrency](https://github.com/turuuboldoo/core-kotlin-modules/tree/main/core-kotlin-concurrency)
