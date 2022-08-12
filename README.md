@@ -16,6 +16,8 @@ Read more about Kotlin coroutine in Spring
 \
 [Core kotlin concurrency](https://github.com/turuuboldoo/core-kotlin-modules/tree/main/core-kotlin-concurrency)
 \
+[Reactive Streams and Kotlin Flows](https://elizarov.medium.com/reactive-streams-and-kotlin-flows-bfd12772cda4)
+\
 [Reactive or Coroutines](https://medium.com/digitalfrontiers/reactive-or-coroutines-between-a-rock-and-a-hard-place-6a41a151195a)
 \
 [Making Webflux code readable with Kotlin coroutines](https://blog.allegro.tech/2020/02/webflux-and-coroutines.html)
