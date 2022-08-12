@@ -12,6 +12,13 @@ class CharacterHandler(
     private val repository: CharacterRepository,
 ) {
 
+    suspend fun getRoot(request: ServerRequest) =
+        ServerResponse.ok()
+            .contentType(MediaType.APPLICATION_JSON)
+            .bodyValueAndAwait(
+                mapOf("message" to "Hello! There")
+            )
+
     suspend fun getCharacter(request: ServerRequest): ServerResponse {
         val id = request.pathVariable("id").toLong()
         val character = repository.findById(id)

@@ -1,7 +1,7 @@
 spring:
   r2dbc:
-    url: r2dbc:postgresql://localhost/webflux
-    username: root
+    url: r2dbc:postgresql://172.17.0.1:5432/spring
+    username: postgres
     password: secret
 
 logging:
