@@ -1,6 +1,6 @@
 spring:
   r2dbc:
-    url: r2dbc:postgresql://172.17.0.1:5432/spring
+    url: r2dbc:postgresql://localhost:8082/spring?createDatabaseIfNotExist=true
     username: postgres
     password: secret
 
