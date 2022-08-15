@@ -13,6 +13,8 @@ class CharactersRoutesConfig(
 
     @Bean
     fun routes() = coRouter {
+        GET("/", handler::getRoot)
+
         "/api/characters".nest {
             accept(MediaType.APPLICATION_JSON).nest {
                 GET("", handler::getCharacters)
